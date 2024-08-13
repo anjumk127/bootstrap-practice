@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+}
+.pattern {
+    display: grid;
+    grid-template-columns: repeat(8, 20px);
+    grid-template-rows: repeat(8, 20px);
+}
+.pixel {
+    width: 20px;
+    height: 20px;
+}
+.blue { background-color: #1f51ff; }
+.red { background-color: #ff1f1f; }
+.yellow { background-color: #ffeb3b; }
+.green { background-color: #1fff51; }
+.white { background-color: #fff; }
